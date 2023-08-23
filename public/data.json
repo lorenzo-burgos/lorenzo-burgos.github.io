@@ -6,7 +6,7 @@
     "shortDescription": "Epic fantasy adventure.",
     "price": 59.99,
     "rating": 4.7,
-    "image": "./assets/celda.jpg"
+    "image": "./Assets/celda.jpg"
   },
   {
     "index": 1,
@@ -15,7 +15,7 @@
     "shortDescription": "High-speed platformer.",
     "price": 49.99,
     "rating": 4.6,
-    "image": "./assets/Sanic.webp"
+    "image": "./Assets/Sanic.webp"
   },
   {
     "index": 2,
@@ -24,7 +24,7 @@
     "shortDescription": "Classic platforming action.",
     "price": 39.99,
     "rating": 4.5,
-    "image": "./assets/Plumber Bros.png"
+    "image": "./Assets/Plumber Bros.png"
   },
   {
     "index": 3,
@@ -33,7 +33,7 @@
     "shortDescription": "Hellish FPS combat.",
     "price": 54.99,
     "rating": 4.8,
-    "image": "./assets/Doom3d.png"
+    "image": "./Assets/Doom3d.png"
   },
   {
     "index": 4,
@@ -42,7 +42,7 @@
     "shortDescription": "Battle royale mayhem.",
     "price": 0,
     "rating": 4.4,
-    "image": "./assets/Fortressnite.png"
+    "image": "./Assets/Fortressnite.png"
   },
   {
     "index": 5,
@@ -51,7 +51,7 @@
     "shortDescription": "Stealthy adventure.",
     "price": 49.99,
     "rating": 4.5,
-    "image": "./assets/AssassinsCreed.png"
+    "image": "./Assets/AssassinsCreed.png"
   },
   {
     "index": 6,
@@ -60,7 +60,7 @@
     "shortDescription": "Quacky FPS action.",
     "price": 44.99,
     "rating": 4.7,
-    "image": "./assets/CallOfDucky.png"
+    "image": "./Assets/CallOfDucky.png"
   },
   {
     "index": 7,
@@ -69,7 +69,7 @@
     "shortDescription": "Garbage collection adventure.",
     "price": 29.99,
     "rating": 4.2,
-    "image": "./assets/Cyberdump.jpeg"
+    "image": "./Assets/Cyberdump.jpeg"
   },
   {
     "index": 8,
@@ -78,6 +78,6 @@
     "shortDescription": "Creative sandbox adventure.",
     "price": 29.99,
     "rating": 4.6,
-    "image": "./assets/Minecraft-Logo.png"
+    "image": "./Assets/Minecraft-Logo.png"
   }
 ]
