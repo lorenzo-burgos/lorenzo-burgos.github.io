@@ -1,0 +1,83 @@
+[
+  {
+    "index": 0,
+    "title": "The Legend of Celda: Breath of the Mild",
+    "description": "Embark on an epic adventure as Celda, a brave hero, to save the kingdom of Hyboria from the dark forces.",
+    "shortDescription": "Epic fantasy adventure.",
+    "price": 59.99,
+    "rating": 4.7,
+    "image": "./assets/celda.jpg"
+  },
+  {
+    "index": 1,
+    "title": "Sanic the Hedhog: Fast and Furrious",
+    "description": "Join Sanic the fastest hedgehog alive in his quest to defeat the evil Dr. Robotnik and collect golden onion rings.",
+    "shortDescription": "High-speed platformer.",
+    "price": 49.99,
+    "rating": 4.6,
+    "image": "./assets/Sanic.webp"
+  },
+  {
+    "index": 2,
+    "title": "Super Plumber Bros.: Kingdom Rescue",
+    "description": "Help the famous Super Plumber Bros., Mario, and Luigi, rescue Princess Peaches from the clutches of Bowzor.",
+    "shortDescription": "Classic platforming action.",
+    "price": 39.99,
+    "rating": 4.5,
+    "image": "./assets/Plumber Bros.png"
+  },
+  {
+    "index": 3,
+    "title": "Doomed: Eternal Conquest",
+    "description": "Battle against the forces of hell and save humanity as the Doom Slayer in this intense first-person shooter.",
+    "shortDescription": "Hellish FPS combat.",
+    "price": 54.99,
+    "rating": 4.8,
+    "image": "./assets/Doom3d.png"
+  },
+  {
+    "index": 4,
+    "title": "Fortressnite: Battle Crown",
+    "description": "Build, shoot, and survive in this last-player-standing battle royale game. Can you be the Battle Crown champion?",
+    "shortDescription": "Battle royale mayhem.",
+    "price": 0,
+    "rating": 4.4,
+    "image": "./assets/Fortressnite.png"
+  },
+  {
+    "index": 5,
+    "title": "Assassin's Greed: Odyssey",
+    "description": "Step into the shoes of a cunning assassin and navigate the world of ancient Greece to uncover hidden treasures and secrets.",
+    "shortDescription": "Stealthy adventure.",
+    "price": 49.99,
+    "rating": 4.5,
+    "image": "./assets/AssassinsCreed.png"
+  },
+  {
+    "index": 6,
+    "title": "Call of Ducky: Quack Ops",
+    "description": "Experience the ultimate quacking warfare in this realistic first-duck shooter.",
+    "shortDescription": "Quacky FPS action.",
+    "price": 44.99,
+    "rating": 4.7,
+    "image": "./assets/CallOfDucky.png"
+  },
+  {
+    "index": 7,
+    "title": "Cyberdump 2069: Garbage Simulator",
+    "description": "Explore the dystopian cyber city of NeoNokyo as a garbage collector, navigating through heaps of electronic waste and uncovering mysterious secrets.",
+    "shortDescription": "Garbage collection adventure.",
+    "price": 29.99,
+    "rating": 4.2,
+    "image": "./assets/Cyberdump.jpeg"
+  },
+  {
+    "index": 8,
+    "title": "Worldcraft: Block and Build",
+    "description": "Unleash your creativity and build incredible worlds, block by block, in this open-world sandbox game.",
+    "shortDescription": "Creative sandbox adventure.",
+    "price": 29.99,
+    "rating": 4.6,
+    "image": "./assets/Minecraft-Logo.png"
+  }
+]

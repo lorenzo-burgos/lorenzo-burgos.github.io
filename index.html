@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Assets/Eric Games.svg.ico" type="image/x-icon">
+    <title>Eric Games Store</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <section class="content">
+            <div class="screen">
+                <header class="header">
+                    <div class="logo-container">
+                        <img src="Assets/Eric Games.svg.png" alt="Eric Games Epic Logo" class="logo">
+                        <h1 class="Logo-title">Eric Games</h1>
+                    </div>
+                    <button id="viewCartButton">View Cart</button>
+                </header>
+                <div class="front-page">
+                    <button type="button" class="view-products-button">View Products</button>
+                </div>
+            </div>
+        </section>
+        <div class="push"></div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>Contact us: contact@ericgames.com</p>
+            <p>Follow me on Github <a href="https://github.com/lorenzo-burgos">Lorenzo Burgos</a></p>
+            <p><a href="https://github.com/florinpop17/app-ideas/blob/master/Projects/2-Intermediate/Simple-Online-Store.md">Requisitos</a></p>
+        </div>
+    </footer>
+    <script type="module">
+        const viewProductsButton = document.querySelector(".view-products-button");
+        viewProductsButton.addEventListener("click", function () {
+            window.location.href = "products.html"
+        })
+
+        const viewCartButton = document.querySelector("#viewCartButton");
+        viewCartButton.addEventListener("click", function () {
+            window.location.href = "cart.html"
+        })
+    </script>
+</body>
+
+</html>

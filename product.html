@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Assets/Eric Games.svg.ico" type="image/x-icon">
+    <title>Eric Games Store</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <section class="content">
+            <div class="screen">
+                <header class="header">
+                    <div class="logo-container">
+                        <img src="Assets/Eric Games.svg.png" alt="Eric Games Epic Logo" class="logo">
+                        <h1 class="Logo-title">Eric Games</h1>
+                    </div>
+                    <button id="viewCartButton">View Cart</button>
+                </header>
+                <div class="front-page">
+                    <button type="button" class="view-products-button">View Products</button>
+                </div>
+                <div class="product-container" id="porductContainer">
+                    <h2 id="productTitle"></h2>
+                    <img id="productImage" src="" alt="Product Image">
+                    <p>Product Id: <span id="productId"></span></p>
+                    <p id="productDescription"></p>
+                    <p>$<span id="productPrice"></span></p>
+                    <button class="add-to-cart"> Add to Cart</button>
+                    <p>Quantity in stock: 7</p>
+                </div>
+            </div>
+        </section>
+        <div class="push"></div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>Contact us: contact@ericgames.com</p>
+            <p>Follow me on Github <a href="https://github.com/lorenzo-burgos">Lorenzo Burgos</a></p>
+            <p><a href="https://github.com/florinpop17/app-ideas/blob/master/Projects/2-Intermediate/Simple-Online-Store.md">Requisitos</a></p>
+        </div>
+    </footer>
+    <script type="module">
+        const cart = JSON.parse(localStorage.getItem("cart")) || []
+
+        const viewIndexButton = document.querySelector(".logo-container")
+        viewIndexButton.addEventListener("click", function () {
+            window.location.href = "index.html"
+        })
+
+        const viewProductsButton = document.querySelector(".view-products-button")
+        viewProductsButton.addEventListener("click", function () {
+            window.location.href = "products.html"
+        })
+        
+        const viewCartButton = document.querySelector("#viewCartButton")
+        viewCartButton.addEventListener("click", function () {
+            console.log("View Cart button")
+            window.location.href = "cart.html"
+        })
+
+        const urlParams = new URLSearchParams(window.location.search)
+        const productIndex = parseInt(urlParams.get('index'))
+
+        fetch('./public/data.json')
+            .then(response => response.json())
+            .then(data => {
+
+                const product = data[productIndex]
+
+                document.getElementById('productTitle').textContent = product.title
+                document.getElementById('productImage').src = product.image
+                document.getElementById('productDescription').textContent = product.description
+                document.getElementById('productId').textContent = productIndex
+                document.getElementById('productPrice').textContent = product.price
+
+                const addCartButton = document.querySelector(".add-to-cart")
+                addCartButton.addEventListener("click", function () {
+                    cart.push(product)
+                    localStorage.setItem("cart", JSON.stringify(cart))
+                    console.log(`Add Cart button ${productIndex}`)
+                    window.alert(`Product added to the cart`)
+                    console.log(cart)
+                })
+            })
+            .catch(error => {
+                console.error("Error loading JSON:", error)
+            })
+    </script>
+</body>
+
+</html>

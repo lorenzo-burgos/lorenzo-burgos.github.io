@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: orangered;
+    border-radius: 15px;
+}
+
+body {
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    flex: 1;
+}
+
+.Logo-title{
+    color: #eee;
+    margin-left: 10px;
+}
+
+.logo {
+    width: 60px;
+    
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #444;
+    width: 100%;
+    overflow: auto;
+    cursor: pointer;
+}
+
+header{
+    background-color: #444
+}
+
+footer {
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content {
+    flex: 1;
+}
+
+a, p, h2, h3, label, li{
+    color: #eee;
+    text-decoration: none;
+}
+
+h2{
+    font-size: 16px;
+}
+
+#viewCartButton{
+    color: #fff;
+    background-color: orangered;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    cursor: pointer;
+}
+
+#viewCartButton:hover{
+    background-color: orange;
+}
+
+.product-card{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 300px;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+
+.product-image{
+    width: 300px;
+    height:300px;
+}
+
+.see-details, .add-to-cart{
+    color: #fff;
+    background-color: orangered;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.see-details:hover, .add-to-cart:hover{
+    background-color: orange;
+}
+
+.product-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.product-card {
+    width: 300px;
+}
+
+.cart-card, .order-card{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.front-page, .Order {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.view-products-button, .orderPlacement {
+    outline: orangered;
+    margin-top: 15px;
+    background-color: orangered;
+    color: white;
+    border: 2px solid orangered;
+    height: 30px;
+    width: 150px;
+    border-radius: 13px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.view-products-button:hover, .orderPlacement:hover{
+    background-color: orange;
+    border: 2px solid orange;
+}
+
+.delete-card{
+    background-color: orangered;
+    color: white;
+    border: 2px solid orangered;
+    height: 30px;
+    width: 150px;
+    border-radius: 13px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-left: 12px;
+}
+
+.delete-card:hover{
+    background-color: orange;
+    border: 2px solid orange;
+}
+
+.product-container{
+    margin-left: 30px;
+}
+
+#productImage{
+    width: 400px;
+}
+
+.update-quantity-button{
+    background-color: orangered;
+    color: white;
+    border: 2px solid orangered;
+    height: 30px;
+    width: 150px;
+    border-radius: 13px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-left: 12px;
+}
+
+.cancel{
+    margin-top: 10px;
+    background-color: orangered;
+    color: white;
+    border: 2px solid orangered;
+    height: 30px;
+    width: 150px;
+    border-radius: 13px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.update-quantity-button:hover, .cancel:hover{
+    background-color: orange;
+    border: 2px solid orange;
+}
+
+input{
+    width: 80px;
+}
+
+.row {
+    display: flex;
+}
+
+.total-price, .empty-cart{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.total-tax{
+    margin-left: 30px;
+}
+
+.cart-product-id, .cart-product-price{
+    margin-left: 12px;
+}
+
+ul{
+    list-style: none;
+}
+
+.bInput{
+    margin-top: 10px;
+    width: 360px;
+}
+
+.sInput{
+    margin-top: 10px;
+    width: 341px;
+}
+
+.ship-price{
+    margin-left: 30px;
+}
